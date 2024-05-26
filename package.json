@@ -1,6 +1,8 @@
 {
   "name": "card-power",
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://Takumi-D.github.io/Card-power",
   "description": "",
   "main": "index.js",
   "scripts": {
