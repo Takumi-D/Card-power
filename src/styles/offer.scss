@@ -1,0 +1,132 @@
+.wrapper-cards-offer{
+  max-width: 1660px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.offer{
+  margin: 80px 0 26px 0;
+
+  &__title{
+    font-size: 48px;
+    line-height: 56.25px;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 30px;
+  }
+}
+
+.card__info--offer{
+  background-color: var(--light-gray-color-3);
+}
+
+.arrow-cards{
+  .offer-item-right{
+    width: 45px;
+    height: 45px;
+    right: -86px;
+
+    .offer-img-right{
+      width: 17px;
+      height: 17px;
+    }
+  }
+
+  .offer-item-left{
+    width: 45px;
+    height: 45px;
+    left: -86px;
+
+    .offer-img-left{
+      width: 17px;
+      height: 17px;
+    }
+  }
+}
+
+.card{
+  .card__wrapper-img{
+    position: relative;
+
+    .card__sale{
+      position: absolute;
+      left: 16px;
+      top: 16px;
+    }
+  }
+
+  &__old-price{
+    font-size: 13px;
+    line-height: 15.23px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    width: fit-content;
+    position: relative;
+
+    &:after{
+      content: "";
+      position: absolute;
+      border-bottom: solid 1px var(--black-color);
+      width: 100%;
+      display: block;
+      transform: rotate(-9deg) translate(0px, -8px);
+    }
+  }
+}
+
+.sale{
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  color: var(--black-color);
+  background-color: var(--white-color);
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+@media (max-width: 500px){
+  .offer__title{
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 430px){
+  .offer__title{
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 420px){
+  .offer__title{
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  .arrow-cards{
+    .offer-item-right{
+      width: 33px;
+      height: 33px;
+      right: -41px;
+
+      .offer-img-right{
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    .offer-item-left{
+      width: 33px;
+      height: 33px;
+      left: -41px;
+
+      .offer-img-left{
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}

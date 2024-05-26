@@ -1,0 +1,43 @@
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-footer{
+  max-width: 1245px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-photos-and-videos{
+  padding: 0 60px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto
+}
+
+.container-selection{
+  padding: 0 51px;
+  max-width: 1262px;
+  width: 100%;
+  margin: 0 auto
+}
+
+.container-offer{
+  padding: 0 96px;
+  max-width: 1352px;
+  width: 100%;
+  margin: 0 auto
+}
+
+@media (max-width: 420px){
+  .container-offer{
+    padding: 0 51px;
+    max-width: 1262px;
+    width: 100%;
+    margin: 0 auto
+  }
+}
