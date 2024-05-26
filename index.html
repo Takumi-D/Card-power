@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Card-power</title>
+</head>
+<body>
+
+
+<div class="background-header">
+    <div class="container">
+        <header class="header">
+            <div class="header__top">
+                <div class="header__top-one-column">
+                    <div class="header__wrapper-geolocation">
+                        <img src="./icons/geolocation.svg" alt="geolocation" class="header__icon-geolocation">
+                        <h4 class="header__geolocation-city">Нижний Новгород</h4>
+                    </div>
+                </div>
+                <div class="header__top-two-column">
+                    <a href="javascript:void(0);" class="header__link-item">Как заказать</a>
+                    <a href="javascript:void(0);" class="header__link-item">Доставка и оплата</a>
+                    <a href="javascript:void(0);" class="header__link-item">Кредит и рассрочка</a>
+                    <a href="javascript:void(0);" class="header__link-item">Сборка</a>
+                    <div class="header__wrapper-drop-down-menu">
+                        <a href="javascript:void(0);" class="header__link-item header__link-item--drop-down-menu">Частые вопросы</a>
+                        <img src="./icons/arrow-bottom.svg" alt="arrow-bottom" class="header__img-drop-down-menu">
+                        <div class="header__drop-down-menu drop-down-menu">
+                            <a href="javascript:void(0);" class="drop-down-menu__link-item">О нас</a>
+                            <a href="javascript:void(0);" class="drop-down-menu__link-item">Отзывы</a>
+                            <a href="javascript:void(0);" class="drop-down-menu__link-item">Гарантии</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__top-three-column">
+                    <a href="javascript:void(0);" class="header__phone">+7 (347) 292-62-52</a>
+                </div>
+            </div>
+
+            <div class="header-mobile__top">
+                <div class="header-mobile__wrapper-burger-menu">
+                    <div class="header-mobile__burger-menu-item"></div>
+                    <div class="header-mobile__burger-menu-item"></div>
+                    <div class="header-mobile__burger-menu-item"></div>
+                </div>
+
+                <div class="header-mobile__menu menu-mobile" style="left: -100%">
+                    <a href="javascript:void(0);" class="menu-mobile__item menu-mobile__item-geolocation">Нижний Новгород</a>
+
+                    <a href="javascript:void(0);" class="menu-mobile__item">Доставка и оплата</a>
+                    <a href="javascript:void(0);" class="menu-mobile__item">Кредит и рассрочка</a>
+                    <a href="javascript:void(0);" class="menu-mobile__item">Сборка</a>
+
+                    <div class="menu-mobile__wrapper-drop-down-menu">
+                        <a href="javascript:void(0);" class="menu-mobile__item menu-mobile__item--drop-down-menu">Частые вопросы</a>
+                        <div class="menu-mobile__drop-down-menu drop-down-menu-mobile">
+                            <a href="javascript:void(0);" class="drop-down-menu-mobile__item">О нас</a>
+                            <a href="javascript:void(0);" class="drop-down-menu-mobile__item">Отзывы</a>
+                            <a href="javascript:void(0);" class="drop-down-menu-mobile__item">Гарантии</a>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="menu-mobile__item">Как заказать</a>
+
+                    <a href="javascript:void(0);" class="menu-mobile__item menu-mobile__item-phone">+7 (347) 292-62-52</a>
+                </div>
+            </div>
+
+            <div class="header__bottom">
+                <div class="header__bottom-one-column">
+                    <div class="header__test-button test-button">
+                        <h4 class="test-button__title">Test</h4>
+                        <p class="test-button__paragraph">Сеть мебельных магазинов</p>
+                    </div>
+                </div>
+                <div class="header__bottom-two-column search">
+                    <div class="search__one-column">
+                        <div class="search__wrapper-one-column-icon">
+                            <img src="./icons/burger-menu.svg" alt="menu" class="search__one-column-icon">
+                        </div>
+                        <div class="search__name-catalog">Каталог</div>
+                    </div>
+                    <div class="search__two-column">
+                        <label class="search__label">
+                            <input placeholder="Например, двухъярусная кровать" type="text" class="search__input">
+                            <img src="./icons/search.svg" alt="search" class="search__two-column-icon">
+                        </label>
+                    </div>
+                </div>
+                <div class="header__bottom-three-column">
+                    <div class="header__item-block-personal-information heart">
+                        <div class="header__wrapper-big-icon">
+                            <img src="./icons/heart.svg" alt="heart" class="header__icon-personal-information">
+                        </div>
+                    </div>
+                    <div class="header__item-block-personal-information geolocation">
+                        <div class="header__name-item-personal-information">Адреса</div>
+                        <div class="header__wrapper-icon-personal-information">
+                            <img src="./icons/geolocation.svg" alt="geolocation" class="header__icon-personal-information header__icon-personal-information--geolocation">
+                        </div>
+                    </div>
+                    <div class="header__item-block-personal-information human">
+                        <div class="header__name-item-personal-information">Профиль</div>
+                        <div class="header__wrapper-icon-personal-information">
+                            <img src="./icons/human.svg" alt="human" class="header__icon-personal-information">
+                        </div>
+                    </div>
+                    <div class="header__item-block-personal-information">
+                        <div class="header__wrapper-big-icon">
+                            <img src="./icons/cart.svg" alt="cart" class="header__icon-personal-information">
+                        </div>
+                        <div class="header__number-items-cart">1</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+<main>
+    <div class="container">
+        <div class="banner">
+            <div class="banner__wrapper-bread-crumbs">
+                <p class="banner__item-bread-crumbs">Главная</p>
+                <div class="banner__slash">/</div>
+                <p class="banner__item-bread-crumbs">Все коллекции</p>
+                <div class="banner__slash">/</div>
+                <p class="banner__item-bread-crumbs">Альба</p>
+                <div class="banner__slash">/</div>
+                <p class="banner__item-bread-crumbs">Спальня</p>
+            </div>
+            <h1 class="banner__header">Спальня</h1>
+            <p class="banner__paragraph">Спальня коллекции Альба</p>
+        </div>
+    </div>
+
+    <div class="container-photos-and-videos">
+        <div class="photos-and-videos">
+            <h2 class="photos-and-videos__title">Фотографии и видео</h2>
+
+            <div class="photos-and-videos__wrapper-arrow">
+                <div class="photos-and-videos__wrapper-arrow-right">
+                    <img class="photos-and-videos__arrow-right" src="./icons/arrow-right.svg" alt="arrow-right">
+                </div>
+                <div class="photos-and-videos__wrapper-arrow-left">
+                    <img class="photos-and-videos__arrow-left" src="icons/arrow-left.svg" alt="/arrow-left">
+                </div>
+                <div class="photos-and-videos__wrapper-scroll">
+                    <div class="photos-and-videos__scroll-items" style="left: 0">
+                        <div class="photos-and-videos__item"></div>
+                        <div class="photos-and-videos__item photos-and-videos__item--video"></div>
+                        <div class="photos-and-videos__item"></div>
+                        <div class="photos-and-videos__item"></div>
+                        <div class="photos-and-videos__item"></div>
+                        <div class="photos-and-videos__item"></div>
+                        <div class="photos-and-videos__item"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="photos-and-videos__description"> Представляем вашему вниманию спальный гарнитур «Натали» Он выполнен в классическом стиле с элементами аристократии и роскоши. В комплект входят: кровать, прикроватные тумбы, несколько вариантов шкафов и комод с зеркалом. Обратите внимание, все модули комплекта вы можете приобрести по отдельности. Коллекция «Натали» может быть выполнена в двух цветах: в темном оттенке «Орех», а также в более светлом решении «Клен Ясень Бежевый» Рекомендуем Вам обязательно посмотреть видео спальни, гостиной и прихожей из коллекции «Натали».
+            </p>
+        </div>
+    </div>
+
+    <div class="background-selection">
+        <div class="container-selection">
+            <div class="selection">
+                <div class="selection_one-column">
+                    <h3 class="selection__title">Подборка один</h3>
+
+                    <div class="selection__price price">
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title">Кровать «Триумф» 160</p>
+                                <p class="item-price__value">8 000 ₽ </p>
+                            </div>
+                            <div class="item-price__checkbox">
+                                <img class="item-price__img" src="./icons/check-mark.svg" alt="check-mark">
+                            </div>
+                        </div>
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title">Матрас средний</p>
+                                <p class="item-price__value">10 000 ₽ </p>
+                            </div>
+                            <div class="item-price__checkbox">
+                                <img class="item-price__img" src="./icons/check-mark.svg" alt="check-mark">
+                            </div>
+                        </div>
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title item-price__title--false">Тумба прикроватная</p>
+                                <p class="item-price__value item-price__value--false">2 000 ₽ </p>
+                            </div>
+                            <div class="item-price__checkbox item-price__checkbox--false">
+                                <img class="item-price__img item-price__img--false" src="./icons/check-mark-false.svg" alt="check-mark-false">
+                            </div>
+                        </div>
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title">Шкаф 4-дверный</p>
+                                <p class="item-price__value">10 000 ₽</p>
+                            </div>
+                            <div class="item-price__checkbox">
+                                <img class="item-price__img" src="./icons/check-mark.svg" alt="check-mark">
+                            </div>
+                        </div>
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title">Комод</p>
+                                <p class="item-price__value">2 000 ₽</p>
+                            </div>
+                            <div class="item-price__checkbox">
+                                <img class="item-price__img" src="./icons/check-mark.svg" alt="check-mark">
+                            </div>
+                        </div>
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title">Зеркало</p>
+                                <p class="item-price__value">2 000 ₽</p>
+                            </div>
+                            <div class="item-price__checkbox">
+                                <img class="item-price__img" src="./icons/check-mark.svg" alt="check-mark">
+                            </div>
+                        </div>
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title">Пуф</p>
+                                <p class="item-price__value">2 000 ₽ </p>
+                            </div>
+                            <div class="item-price__checkbox">
+                                <img class="item-price__img" src="./icons/check-mark.svg" alt="check-mark">
+                            </div>
+                        </div>
+
+                        <div class="price__separation"></div>
+
+                        <div class="price__item item-price">
+                            <div class="item-price__wrapper-info">
+                                <p class="item-price__title">Итого</p>
+                                <p class="item-price__value">2 000 ₽ </p>
+                            </div>
+                        </div>
+
+                        <button class="price__card-button card-button">
+                            Добавить товары в корзину
+                            <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="arrow-cards">
+                    <div class="arrow-cards-item-right">
+                        <img class="arrow-cards-img-right" src="./icons/arrow-right.svg" alt="arrow-right">
+                    </div>
+                    <div class="arrow-cards-item-left">
+                        <img class="arrow-cards-img-left" src="./icons/arrow-left.svg" alt="arrow-left">
+                    </div>
+
+                    <div class="wrapper-cards">
+                        <div class="cards" style="left: 0">
+
+                            <div class="cards__item card">
+                                <div class="card__wrapper-img"></div>
+                                <div class="card__info">
+                                    <div class="card__grade">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                    </div>
+                                    <div class="card__description">Кровать «Триумф»</div>
+                                    <div class="card__value">8 000 ₽</div>
+                                    <button class="card-button">
+                                        В корзину
+                                        <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="cards__item card">
+                                <div class="card__wrapper-img"></div>
+                                <div class="card__info">
+                                    <div class="card__grade">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                    </div>
+                                    <div class="card__description">Кровать «Триумф»</div>
+                                    <div class="card__value">8 000 ₽</div>
+                                    <button class="card-button">
+                                        В корзину
+                                        <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="cards__item card">
+                                <div class="card__wrapper-img"></div>
+                                <div class="card__info">
+                                    <div class="card__grade">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                    </div>
+                                    <div class="card__description">Кровать «Триумф»</div>
+                                    <div class="card__value">8 000 ₽</div>
+                                    <button class="card-button">
+                                        В корзину
+                                        <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="cards__item card">
+                                <div class="card__wrapper-img"></div>
+                                <div class="card__info">
+                                    <div class="card__grade">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                    </div>
+                                    <div class="card__description">Кровать «Триумф»</div>
+                                    <div class="card__value">8 000 ₽</div>
+                                    <button class="card-button">
+                                        В корзину
+                                        <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="cards__item card">
+                                <div class="card__wrapper-img"></div>
+                                <div class="card__info">
+                                    <div class="card__grade">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                        <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                    </div>
+                                    <div class="card__description">Кровать «Триумф»</div>
+                                    <div class="card__value">8 000 ₽</div>
+                                    <button class="card-button">
+                                        В корзину
+                                        <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-offer">
+        <div class="offer">
+            <h2 class="offer__title">Для спальни</h2>
+
+            <div class="arrow-cards">
+                <div class="arrow-cards-item-right offer-item-right">
+                    <img class="arrow-cards-img-right offer-img-right" src="./icons/arrow-right.svg" alt="arrow-right">
+                </div>
+                <div class="arrow-cards-item-left offer-item-left">
+                    <img class="arrow-cards-img-left offer-img-left" src="./icons/arrow-left.svg" alt="arrow-left">
+                </div>
+
+                <div class="wrapper-cards wrapper-cards-offer">
+                    <div class="cards cards-offer" style="left: 0">
+
+                        <div class="cards__item card">
+                            <div class="card__wrapper-img">
+                                <div class="card__sale sale">-10%</div>
+                            </div>
+                            <div class="card__info card__info--offer">
+                                <div class="card__grade">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                </div>
+                                <div class="card__description">Кровать «Триумф»</div>
+                                <div class="card__old-price">18 000 ₽</div>
+                                <div class="card__value">8 000 ₽</div>
+                                <button class="card-button">
+                                    В корзину
+                                    <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="cards__item card">
+                            <div class="card__wrapper-img">
+                                <div class="card__sale sale">-10%</div>
+                            </div>
+                            <div class="card__info card__info--offer">
+                                <div class="card__grade">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                </div>
+                                <div class="card__description">Кровать «Триумф»</div>
+                                <div class="card__old-price">18 000 ₽</div>
+                                <div class="card__value">8 000 ₽</div>
+                                <button class="card-button">
+                                    В корзину
+                                    <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="cards__item card">
+                            <div class="card__wrapper-img">
+                                <div class="card__sale sale">-10%</div>
+                            </div>
+                            <div class="card__info card__info--offer">
+                                <div class="card__grade">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                </div>
+                                <div class="card__description">Кровать «Триумф»</div>
+                                <div class="card__old-price">18 000 ₽</div>
+                                <div class="card__value">8 000 ₽</div>
+                                <button class="card-button">
+                                    В корзину
+                                    <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="cards__item card">
+                            <div class="card__wrapper-img">
+                                <div class="card__sale sale">-10%</div>
+                            </div>
+                            <div class="card__info card__info--offer">
+                                <div class="card__grade">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                </div>
+                                <div class="card__description">Кровать «Триумф»</div>
+                                <div class="card__old-price">18 000 ₽</div>
+                                <div class="card__value">8 000 ₽</div>
+                                <button class="card-button">
+                                    В корзину
+                                    <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="cards__item card">
+                            <div class="card__wrapper-img">
+                                <div class="card__sale sale">-10%</div>
+                            </div>
+                            <div class="card__info card__info--offer">
+                                <div class="card__grade">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                </div>
+                                <div class="card__description">Кровать «Триумф»</div>
+                                <div class="card__old-price">18 000 ₽</div>
+                                <div class="card__value">8 000 ₽</div>
+                                <button class="card-button">
+                                    В корзину
+                                    <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="cards__item card">
+                            <div class="card__wrapper-img">
+                                <div class="card__sale sale">-10%</div>
+                            </div>
+                            <div class="card__info card__info--offer">
+                                <div class="card__grade">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                </div>
+                                <div class="card__description">Кровать «Триумф»</div>
+                                <div class="card__old-price">18 000 ₽</div>
+                                <div class="card__value">8 000 ₽</div>
+                                <button class="card-button">
+                                    В корзину
+                                    <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="cards__item card">
+                            <div class="card__wrapper-img">
+                                <div class="card__sale sale">-10%</div>
+                            </div>
+                            <div class="card__info card__info--offer">
+                                <div class="card__grade">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/star.svg" alt="star">
+                                    <img class="card__grade-img" src="./icons/half-star.svg" alt="half-star">
+                                </div>
+                                <div class="card__description">Кровать «Триумф»</div>
+                                <div class="card__old-price">18 000 ₽</div>
+                                <div class="card__value">8 000 ₽</div>
+                                <button class="card-button">
+                                    В корзину
+                                    <img class="card-img-button" src="./icons/cross.svg" alt="/cross">
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<div class="background-footer">
+    <div class="container-footer">
+        <footer class="footer">
+            <h2 class="footer__title">Сайт рыбатекст поможет дизайнеру, верстальщику</h2>
+            <p class="footer__paragraph">Оставьте заявку и мы пришлем вам ссылку</p>
+
+            <form class="footer__form form">
+                <label class="form__label form__label--name">
+                    <input placeholder="Ваше имя" required class="form__input form__input--name" type="text" id="name">
+                    <span class="form__wrapper-icon">
+                        <img class="form__icon" src="./icons/blue-man.svg" alt="name">
+                    </span>
+                </label>
+                <label class="form__label form__label--phone">
+                    <input placeholder="Ваш телефон" required class="form__input form__input--phone" type="number" id="phone">
+                    <span class="form__wrapper-icon">
+                        <img class="form__icon" src="./icons/phone.svg" alt="phone">
+                    </span>
+                </label>
+
+                <label class="form__label form__label--email">
+                    <input placeholder="Ваша почта" required class="form__input form__input--email" type="email" id="email">
+                    <span class="form__wrapper-icon">
+                        <img class="form__icon" src="./icons/email.svg" alt="email">
+                    </span>
+                </label>
+
+                <button class="form__submit">Подписаться</button>
+            </form>
+
+            <div class="footer__bottom">
+                <div class="footer__bottom-column footer__bottom--one-column">
+                    <a class="footer__item-link" href="javascript:void(0);">О нас</a>
+                    <a class="footer__item-link" href="javascript:void(0);">Как сделать заказ</a>
+                    <a class="footer__item-link" href="javascript:void(0);">Доставка</a>
+                    <a class="footer__item-link" href="javascript:void(0);">Гарантия</a>
+                    <a class="footer__item-link" href="javascript:void(0);">Сборка</a>
+                </div>
+                <div class="footer__bottom-column footer__bottom--two-column">
+                    <a class="footer__item-link" href="javascript:void(0);">Адреса магазинов</a>
+                    <a class="footer__item-link" href="javascript:void(0);">Вакансии</a>
+                    <a class="footer__item-link" href="javascript:void(0);">Блог</a>
+                    <a class="footer__item-link" href="javascript:void(0);">Отзывы</a>
+                </div>
+                <div class="footer__bottom-column footer__bottom--three-column">
+                    <a class="footer__item-social-network" href="javascript:void(0);">Инстаграм</a>
+                    <a class="footer__item-social-network" href="javascript:void(0);">Фейсбук</a>
+                    <a class="footer__item-social-network" href="javascript:void(0);">Вконтакте</a>
+                    <a class="footer__item-info" href="javascript:void(0);">+7 (347) 292-62-52</a>
+                    <a class="footer__item-info" href="javascript:void(0);">info@mebelhol.ru</a>
+                </div>
+            </div>
+
+            <p class="footer__privacy-policy">Политика конфиденциальности</p>
+            <p class="footer__rights">2024, МебельХолл. Все права защищены</p>
+        </footer>
+    </div>
+</div>
+
+
+<script src="./bundle.js"></script>
+</body>
+</html>
